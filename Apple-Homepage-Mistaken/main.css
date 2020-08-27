@@ -1,0 +1,906 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    width: %100;
+    height: 44px;
+    vertical-align: top;
+    background-color: #1d1d1f;
+    background: rgba(0,0,0,0.9);
+}
+
+.headerArea {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 44px;
+    text-align: center;
+    color: #f5f5f7;
+}
+
+.menuliste{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 155px;
+    width: auto;
+    height: 44px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.menuliste li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-left: 80px;
+    line-height: 44px;
+}
+
+.menuliste li a:hover{
+    color: #c0c0c0;
+    transition: all ease 500ms;
+}
+
+.menuliste li a {
+    text-decoration: none;
+    color: grey;
+}
+
+ul li .logo{
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    text-align: center;
+    ;
+}
+
+ul li .aramaikon {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    text-align: center;
+    line-height: 44px;
+}
+
+ul li .sepetikon {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.firstSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 680px;
+    background-image: url(./image/heros/herose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+}
+
+.section1text {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #fff;    
+    font-size: 25;
+    text-align: center;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 25;
+    text-align: center;
+}
+
+.section1links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 550px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.section1links a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.secondSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(./image/heros/hero11.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-color: rgb(249, 249, 249);
+    background-size: cover;
+    position: relative;
+    display: block;
+    vertical-align: top;
+}
+
+.secondh1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 55px;
+    text-align: center;
+}
+
+.section2text h5{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 25;
+    text-align: center;
+}
+
+.section2links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 550px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.section2links a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    text-align: center;
+}
+
+.thirdSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background-image: url(./image/heros/heroprotab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: relative;
+    vertical-align: top;
+}
+
+.thirdh1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 55px;
+    text-align: center;
+}
+
+.section3text h5{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-size: 25;
+    text-align: center;
+}
+
+.section3links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 550px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.section3links a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    text-align: center;
+}
+
+.quadSection {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.birinciarea{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+}
+
+.topleft {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/apple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: left;
+}
+
+.baslik1 > h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 55px;
+    margin-left: 110px;
+    width: 500px;
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.topleftlink a{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: #2997ff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topright {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/appledev.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: right;
+}
+
+.baslik2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 260px;
+    display: block;
+    width: 177px;
+    height: 33px;
+    background-image: url(./image/wwdc20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.topright > h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: -5px;
+}
+
+.toprightlink a{
+    margin: 0;
+    padding: 0;
+    ;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: #2997ff;
+}
+
+.ikinciarea {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 590px;
+}
+
+.bottomleft {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/heros/heropro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: left;
+
+}
+
+.baslik3 > h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.baslik3 > h5{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bottomleftlinks{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 220px;
+    text-align: center;
+    
+}
+
+.bottomleftlink a{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+
+.bottomright {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/heros/herowatch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: right;
+}
+
+.bottomrightwatch7{
+    margin: 0;
+    padding: 0;
+    width: 156px;
+    height: 60px !important;
+    background-image: url(./image/iwatch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomrighttexts{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.bottomrigthtext{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.bottomrightlinks{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+    margin-left: 220px;
+    text-align: center;
+    
+}
+
+.bottomrightlink a{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.ucuncuarea {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 590px;
+}
+
+.enbottomleft{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/adam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: left;
+}
+
+.adamresimleri{
+    margin:0;
+    padding: 0;
+    display: block;
+    background-image: url(./image/todayapple.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.adamresimleri2{
+    margin:0;
+    padding: 0;
+    display: block;
+    background-image: url(./image/evdekal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.enbottomleftlink a{
+    display: inline-block;
+    position: absolute;
+    top:1700px;
+    left: 300px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.enbottomleftlink a:hover{
+    text-decoration: underline;
+}
+
+.enbottomright {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(./image/maymus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 705px;
+    height: 580px;
+    float: right;
+}
+
+.enbottomrightmaymus{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url(./image/arcade.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.enbottomright h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    position: absolute;
+    top: 1290px;
+    left: 375px;
+}
+
+.enbottomrightlinks{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.enbottomrightlink a{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 115px;
+    padding-left: 30px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    display: block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 560px;
+    background-color: #f5f5f7;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 1000px;
+    height: 560px;
+    font-size: 12px;
+    color: #86868B;
+}
+
+.footerUsttext {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.footerUsttext h6{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.ustText2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.footerLinkarea {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #86868B;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    
+}
+
+.alisverisdetay{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.alisverisdetay ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.alisverisdetay li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.alisverisdetay li a{
+    text-decoration: none;
+    color: #86868B;
+}
+
+.alisverisdetay li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.servishesap{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.servishesap ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.servishesap li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.servishesap li a{
+    text-decoration: none;
+    color: #86868B;
+}
+
+.servishesap li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.applestore{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.applestore ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.applestore li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.applestore li a{
+    text-decoration: none;
+    color: #86868B;
+}
+
+.applestore li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.kurumsalegitim{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.kurumsalegitim ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.kurumsalegitim li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.kurumsalegitim li a{
+    text-decoration: none;
+    color: #86868B;
+}
+
+.kurumsalegitim li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.appledegerleri{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.appledegerleri ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.appledegerleri li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.appledegerleri li a{
+    text-decoration: none;
+    color: #86868B;
+}
+
+.appledegerleri li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+ul .bolld{
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footerAlttext {
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    letter-spacing: 0.5px;
+}
+
+.footerAlttext a{
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.footerAlttext a:hover{
+    color: #2997ff;
+    text-decoration: underline;
+}
+
+.sayfasonu {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: left;
+}
+
+.sayfasonu ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.sayfasonu li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    border-right: 1px solid #86868B;
+    letter-spacing: 0.5px;
+}
+
+.sayfasonu li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #86868B;
+    padding-right: 7px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.sayfasonu li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.sayfasonu li:first-child{
+    padding-left: 0 !important;
+}
+
+.sayfasonu li:last-child{
+    border-right: none !important;
+}
+
