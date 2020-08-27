@@ -1,4 +1,6 @@
-# Apple-HomePage-Mistaken
-Apple (HomePage) Mistaken
--couldn't made fixed header
--couldn't put some little png on images
+# Apple-HomePage-Mistaken//
+Apple (HomePage) Mistaken//
+-couldn't put some little png on images//
+
+# Demo
+https://gallant-payne-5361da.netlify.app/
